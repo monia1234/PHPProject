@@ -1,0 +1,177 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>Equipement </title>
+
+<style type="text/css">
+
+body{
+font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+}
+p, h1, form, button{border:0; margin:0; padding:0;}
+.spacer{clear:both; height:1px;}
+/* ----------- My Form ----------- */
+.myform{
+margin:0 auto;
+width:450px;
+padding:14px;
+}
+
+/* ----------- stylized ----------- */
+#stylized{
+border:solid 2px #b7ddf2;
+background:#ebf4fb;
+}
+#stylized h1 {
+font-size:14px;
+font-weight:bold;
+margin-bottom:8px;
+}
+#stylized p{
+font-size:11px;
+color:#666666;
+margin-bottom:20px;
+border-bottom:solid 1px #b7ddf2;
+padding-bottom:10px;
+}
+#stylized label{
+display:block;
+font-weight:bold;
+text-align:right;
+width:140px;
+float:left;
+}
+#stylized .small{
+color:#666666;
+display:block;
+font-size:11px;
+font-weight:normal;
+text-align:right;
+width:140px;
+}
+#stylized select{
+font-size:12px;
+padding:4px 2px;
+border:solid 1px #aacfe4;
+width:200px;
+margin:2px 0 20px 10px;
+}
+#stylized input{
+float:left;
+font-size:12px;
+padding:4px 2px;
+border:solid 1px #aacfe4;
+width:200px;
+margin:2px 0 20px 10px;
+}
+#stylized button{
+clear:both;
+margin-left:150px;
+width:125px;
+height:31px;
+background:#666666 url(img/button.png) no-repeat;
+text-align:center;
+line-height:31px;
+color:#FFFFFF;
+font-size:11px;
+font-weight:bold;
+}
+</style>
+
+
+</head><body bgcolor="#004080" text="#000000">
+<table width="1269" height="1092" border="0" cellpadding="0" cellspacing="0"  bgcolor="#F0F0F0">
+  <tr>
+    <td height="238" align="center" valign="middle"  bgcolor="#004080">&nbsp;
+        <p></td>
+    <td rowspan="2" align="middle" valign="top"  bgcolor="#0000ff"><table width="992" align="left" bgcolor="#004080" border="0" cellpadding="0" cellspacing="0" height="1092">
+      <tr>
+        <td height="169" align="left" valign="bottom" bgcolor="#004080"><div style="position: absolute; width: 848px; height: 135px; z-index: 1; left: 73px; top: 47px" id="couche1"><img src="accueil_files/index_ban1.jpg" width="849" height="161"></div>
+              <p></td>
+      </tr>
+      <tr>
+        <td proprieties="fixed" valign="top" align="left"  bgcolor="#004080" height="686"><div align="center"> &nbsp;
+                  <p>&nbsp;</p>
+          <p>&nbsp;</p>
+        </div>
+              <div id="stylized" class="myform">
+                <form name="Logociel" method="POST" action="equipement2.php">
+                  <h2 align="center">Fiche d'inventaire de matériel informatique</h2>
+                  <label>N° de série</label>
+                  <input type="text" name="Ndes&eacute;rie" id="name" />
+                  <label>Libellé</label>
+                  <input type="text" name="Libell&eacute;" id="email" />
+                  <label>Date</label>
+                  <input type="text" name="Date" id="email" />
+                  <label>Type</label>
+                  <select name="Type" size="1" id="langue" style="width: 187;" class="select">
+                    <option value="" selected="selected"> </option>
+                    <option value="Péripherique"> Péripherique </option>
+                    <option value="Composant"> Nouveau materiel </option>
+                  </select>
+                  <label>Etat</label>
+                  <select name="Etat" size="1" id="langue0" style="width: 187;" class="select">
+                    <option value="" selected="selected"> </option>
+                    <option value="Affectation"> Affectation </option>
+                    <option value="Rebut ">Rebut</option>
+                    <option value="Stock"> Stock </option>
+                  </select>
+                  <label>Lieu</label>
+                  <input type="text" name="Lieu" id="email" />
+                  <button type="submit">
+                  <div align="center">Ajouter</div>
+                  </button>
+                  <p>&nbsp;</p>
+                  <button type="reset">
+                  <div align="center">Annuler</div>
+                  </button>
+                  <div class="spacer"></div>
+                </form>
+              </div>
+           
+              <div align="center"> &nbsp;</div></td>
+      </tr>
+      <tr>
+        <td width="992" height="109"  bgcolor="#004080"><center>
+          <script>placeButton(11)</script>
+          <font face="MS Sans Serif" size="1">
+            <script>placeButton(5)</script>
+            Design by Jemai Monia <br>
+            © 2013© Ciments Bizerte </font>
+        </center></td>
+      </tr>
+    </table>
+        <div align="center"></div></td>
+  </tr>
+  <tr>
+    <td height="854" align="center" valign="top"  bgcolor="#004080">&nbsp;
+        <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <a href="accueil.html">
+        <input name="button" type="button" style="width: 259px; height: 31px" value="Accueil" >
+      </a>
+        <p></p>
+      <p> <a href="Logiciel.html">
+        <input name="button" type="button" style="width: 259px; height: 31px" value="Logiciel" >
+      </a> </p>
+      <p> <a href="Equipement.htm">
+        <input name="button" type="button" style="width: 259px; height: 31px" value="Equipement" >
+      </a> </p>
+      <p><a href="Nouveau materiel.htm">
+          <input name="button" type="button" style="width: 259px; height: 31px" value="Nouveau Matériel" >
+        </a> </p>
+      <p> <a href="fournisseur.htm">
+        <input name="button" type="button" style="width: 259px; height: 31px" value="Fourniseur" >
+      </a> </p>
+      <p> <a href="informaticien.html">
+        <input name="button" type="button" style="width: 259px; height: 31px" value="Informaticien" >
+      </a> </p></td>
+  </tr>
+  <tr>
+    <td width="277"></td>
+    <td width="992" height="1"></td>
+  </tr>
+</table>
+</body></html>
